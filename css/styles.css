@@ -526,22 +526,31 @@ header{
 }
 
 /* footer subscribe form */
-.footer-form{
-    margin-left: 80px;
+.container-footer-form{
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 80px;
+
+}
+
+.footer-form{
+    display: flex;
     gap: 24px;
+}
+
+.footer-form-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .footer-form-label{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .footer-input{
